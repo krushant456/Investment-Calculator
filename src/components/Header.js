@@ -1,0 +1,11 @@
+import logo from "../assets/investment-calculator-logo.png";
+
+const Header = () => {
+  return (
+    <header id="header">
+      <imgw src={logo} alt="investing logo" />
+      <h1>Investment Calculator</h1>
+    </header>
+  );
+};
+export default Header;
